@@ -3,7 +3,6 @@ import Typed from "typed.js";
 import React, { useEffect } from "react";
 import SocialContact from "../SocialContact";
 import { NavLink } from "react-router-dom";
-import logo from "./img/logo.png";
 import { SOCIAL, WEBINFODETAIL } from "../../constants";
 const HomeContent = () => {
   const el = React.useRef(null);
@@ -47,8 +46,8 @@ const HomeContent = () => {
           </div>
         </div>
         <div className={style.right}>
-          <div className={style.homeImg}>
-            <img src={logo} alt="" />
+          <div className={style.homeImg} id="canvasMatter">
+            {/* <img src={logo} alt="" /> */}
           </div>
         </div>
       </div>

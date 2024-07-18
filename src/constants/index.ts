@@ -63,8 +63,26 @@ export const WEBINFODETAIL: WEBINFO = {
   avatarImg: "../assets/icon.png",
   social: [
     {
-      title: "juejin",
+      title: "Juejin",
       link: "https://juejin.cn/?utm_source=infinitynewtab.com",
+    },
+    {
+      title: "Github",
+      link: "https://github.com/ObjectX-9",
+    },
+    {
+      title: "Email",
+      link: "514034541@qq.com",
+      info: "514034541@qq.com",
+    },
+    {
+      title: "KnowledgeBase",
+      link: "https://nextjs-notion-starter-kit-phi-gray.vercel.app/?vercelToolbarCode=q7e6XSyBgBIeMSk",
+    },
+    {
+      title: "WeChat",
+      link: "WeChat",
+      info: "WeChat",
     },
   ],
   likes: 1000,

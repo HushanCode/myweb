@@ -1,30 +1,15 @@
 import style from "./style/index.module.less";
 import Typed from "typed.js";
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import SocialContact from "../SocialContact";
 import { NavLink } from "react-router-dom";
-import { getWebInfo } from "../../api/webInfo";
-import { SOCIAL, WEBINFO } from "./type";
+import logo from "./img/logo.png";
+import { SOCIAL, WEBINFODETAIL } from "../../constants";
 const HomeContent = () => {
   const el = React.useRef(null);
-  const [webInfo, setWebInfo] = useState<WEBINFO>();
-  // 请求首页数据
   useEffect(() => {
-    getWebInfo()
-      .then((res) => {
-        console.log("✅ ~ zhuling res:", res.data);
-        setWebInfo(res.data[0]);
-      })
-      .catch((err) => {
-        console.error("✅ ~ zhuling err:", err);
-      });
-  }, []);
-
-  useEffect(() => {
-    if (!webInfo) return;
-    const { roles } = webInfo as WEBINFO;
     const typed = new Typed(el.current, {
-      strings: roles,
+      strings: WEBINFODETAIL.roles,
       typeSpeed: 100,
       backSpeed: 100,
       backDelay: 500,
@@ -34,10 +19,7 @@ const HomeContent = () => {
     return () => {
       typed.destroy();
     };
-  }, [webInfo]);
-  if (!webInfo) return;
-  const { author, motto, social, avatarImg } = webInfo as WEBINFO;
-  console.log("✅ ~ zhuling social:", social)
+  }, []);
   return (
     <>
       <div className={style.container}>
@@ -45,15 +27,18 @@ const HomeContent = () => {
           <div className={style.desc}>
             <h3>你好👋！</h3>
             <h1>
-              我是 <i>{author}</i>
+              我是 <i>{WEBINFODETAIL.author}</i>
             </h1>
             <h3>
               我是一个 <span ref={el}></span>
             </h3>
-            <p>{motto}</p>
+            <p>{WEBINFODETAIL.motto}</p>
           </div>
           <div className={style.link}>
-            <SocialContact type="withBorder" social={social as SOCIAL[]} />
+            <SocialContact
+              type="withBorder"
+              social={WEBINFODETAIL.social as SOCIAL[]}
+            />
           </div>
           <div className={style.buttonContaner}>
             <NavLink className={style.button} to={"/works"}>
@@ -63,7 +48,7 @@ const HomeContent = () => {
         </div>
         <div className={style.right}>
           <div className={style.homeImg}>
-            <img src={avatarImg} alt="" />
+            <img src={logo} alt="" />
           </div>
         </div>
       </div>

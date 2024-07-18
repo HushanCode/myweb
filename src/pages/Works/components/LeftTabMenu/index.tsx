@@ -1,4 +1,5 @@
-import { WORKITEM } from "../../constants";
+/* eslint-disable @typescript-eslint/ban-types */
+import { WORKITEM, WORK_LIST } from "../../../../constants";
 import { LEFT_MENU_TABS } from "./constants";
 import style from "./style/index.module.less";
 import classNames from "classnames";
@@ -19,7 +20,7 @@ const LeftTabMenu = (props: LeftTabMenuProps) => {
     });
     console.log("✅ ~ newWorkList:", newWorkList);
     // 设置作品list
-    setFilterWorkList(newWorkList);
+    setFilterWorkList(WORK_LIST);
   };
   return (
     <div className={style.container}>

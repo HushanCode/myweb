@@ -1,50 +1,19 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import ContentTitle from "./components/ContentTitle";
 import LeftAvatar from "./components/LeftAvatar";
 import LeftTabMenu, { MenuType } from "./components/LeftTabMenu";
 import TopButton from "./components/TopButton";
 import style from "./style/index.module.less";
 import WorkCard from "./components/WorkCard";
-import { getWorks } from "../../api/works";
-import { WORKITEM } from "./constants";
-import { getWebInfo } from "../../api/webInfo";
-import { WEBINFO } from "../../components/HomeContent/type";
+import { WEBINFO, WEBINFODETAIL, WORKITEM, WORK_LIST } from "../../constants";
 const Works = () => {
   const [activeTab, setActiveTab] = useState<MenuType>("animation");
-  const [workList, setWorkList] = useState<WORKITEM[]>([]);
+  const [workList, setWorkList] = useState<WORKITEM[]>(WORK_LIST);
   const [filterWorkList, setFilterWorkList] = useState<WORKITEM[]>([]);
-  const [webInfo, setWebInfo] = useState<WEBINFO>();
-
-  // 获取作品信息
-  useEffect(() => {
-    getWorks()
-      .then((res) => {
-        console.log("✅ ~ zhuling works res:", res.data);
-        setWorkList(res.data);
-        setFilterWorkList(
-          res.data.filter((item: WORKITEM) => {
-            return item.type === "animation";
-          })
-        );
-      })
-      .catch((err) => {
-        console.error("✅ ~ zhuling works err:", err);
-      });
-  }, []);
-
-  // 获取网站信息
-  useEffect(() => {
-    getWebInfo()
-      .then((res) => {
-        console.log("✅ ~ zhuling res webInfo:", res.data[0]);
-        setWebInfo(res.data[0]);
-      })
-      .catch((err) => {
-        console.error("✅ ~ zhuling err webInfo:", err);
-      });
-  }, []);
+  const [webInfo, setWebInfo] = useState<WEBINFO>(WEBINFODETAIL);
 
   if (!filterWorkList || !webInfo) return null;
+  console.log("✅ ~ workList:", workList);
 
   return (
     <>

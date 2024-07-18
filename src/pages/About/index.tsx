@@ -4,7 +4,7 @@ import bg from "../../components/HomeContent/img/bg.avif";
 import { useState } from "react";
 import { ABOUT, ABOUTINFO } from "../../constants";
 const About = () => {
-  const [aboutInfo, setAboutInfo] = useState<ABOUT>(ABOUTINFO);
+  const [aboutInfo] = useState<ABOUT>(ABOUTINFO);
   if (!aboutInfo) return null;
   const { author, introduce } = aboutInfo;
   return (

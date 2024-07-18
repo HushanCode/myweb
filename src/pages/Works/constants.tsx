@@ -1,6 +1,5 @@
 import { FaCss3Alt } from "react-icons/fa";
 import { LiaReact } from "react-icons/lia";
-import { MenuType } from "./components/LeftTabMenu";
 export const TABS_CONFIG = [
   {
     title: "React",

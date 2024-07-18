@@ -8,9 +8,9 @@ import WorkCard from "./components/WorkCard";
 import { WEBINFO, WEBINFODETAIL, WORKITEM, WORK_LIST } from "../../constants";
 const Works = () => {
   const [activeTab, setActiveTab] = useState<MenuType>("animation");
-  const [workList, setWorkList] = useState<WORKITEM[]>(WORK_LIST);
+  const [workList] = useState<WORKITEM[]>(WORK_LIST);
   const [filterWorkList, setFilterWorkList] = useState<WORKITEM[]>([]);
-  const [webInfo, setWebInfo] = useState<WEBINFO>(WEBINFODETAIL);
+  const [webInfo] = useState<WEBINFO>(WEBINFODETAIL);
 
   if (!filterWorkList || !webInfo) return null;
   console.log("✅ ~ workList:", workList);

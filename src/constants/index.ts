@@ -59,40 +59,46 @@ export interface WEBINFO {
 export const WEBINFODETAIL: WEBINFO = {
   author: "ObjectX",
   roles: ["前端工程师", "图形编辑器开发", "前端工程化"],
-  motto: "21321321321",
+  motto: "何须浅碧深红色，自是花中第一流。",
   avatarImg: "../assets/icon.png",
   social: [
     {
       title: "Juejin",
-      link: "https://juejin.cn/?utm_source=infinitynewtab.com",
+      link: "https://juejin.cn/user/3714595004887192",
     },
     {
       title: "Github",
       link: "https://github.com/ObjectX-9",
     },
     {
-      title: "Email",
-      link: "514034541@qq.com",
-      info: "514034541@qq.com",
-    },
-    {
       title: "KnowledgeBase",
+      info: "知识库",
       link: "https://nextjs-notion-starter-kit-phi-gray.vercel.app/?vercelToolbarCode=q7e6XSyBgBIeMSk",
     },
     {
+      title: "Email",
+      link: "",
+      info: "514034541@qq.com",
+    },
+    {
       title: "WeChat",
-      link: "WeChat",
-      info: "WeChat",
+      link: "",
+      info: "16782404097",
     },
   ],
   likes: 1000,
   visitors: 100,
 };
 
+interface Project {
+  title: string;
+  time: string;
+  function: string[];
+}
 interface experience {
   title: string;
   time: string;
-  function: string;
+  projects: Project[];
 }
 
 interface lifeImgList {
@@ -113,16 +119,42 @@ export interface ABOUT {
 
 export const ABOUTINFO: ABOUT = {
   author: "ObjectX",
-  introduce: "21321321321",
-  skills: ["react", "js", "section"],
+  introduce:
+    "一个热爱生活和分享技术的前端工程师。我希望能够通过我的博客，与大家分享我的生活态度、经历和技术的学习，希望带给大家一些启发和帮助！你也可以在我的 掘金 和 Github 里面了解更多。",
+  skills: [
+    "Html",
+    "Js",
+    "Css",
+    "Ts",
+    "Webpack",
+    "React",
+    "Canvas",
+    "Svg",
+    "Skia",
+    "CanvasKit",
+    "工程化",
+    "Git",
+    "Node",
+  ],
   experience: [
     {
-      title: "132132",
-      time: "2132132",
-      function: "2132132",
+      title: "前端工程师（编辑器方向）- 北京雪云锐创科技有限公司",
+      time: "2022年7月 - 至今",
+      projects: [
+        {
+          title: "项目1",
+          time: "2022年7月 - 至今",
+          function: ["负责xxxxx", "负责xxxxx1", "负责xxxxx2"],
+        },
+        {
+          title: "项目2",
+          time: "2022年7月 - 至今",
+          function: ["负责xxxxx", "负责xxxxx1", "负责xxxxx2"],
+        },
+      ],
     },
   ],
-  future: "321321",
+  future: ``,
   lifeImgList: [
     {
       title: "23213",

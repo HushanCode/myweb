@@ -21,9 +21,11 @@ export const WORK_LIST: WORKITEM[] = [
     tags: ["手写", "笔记"],
     title: "标题1",
     desc: "221321321",
-    coverImg: "../../assets/icon.png",
+    coverImg:
+      "http://39.103.98.182:5244/p/%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/%E6%9D%82%E6%96%87%E4%BB%B6/v2-27c0d6ebd082060670e85dd4179d95f3_r.jpg?sign=7UDOxcBgU7jjRpWgUoSdNC7zNYYm9NF6B3UCTsT9tSk=:0",
     link: "https://juejin.cn/?utm_source=infinitynewtab.com",
-    avatarImg: "../../assets/icon.png",
+    avatarImg:
+      "http://39.103.98.182:5244/p/%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/%E6%9D%82%E6%96%87%E4%BB%B6/v2-27c0d6ebd082060670e85dd4179d95f3_r.jpg?sign=7UDOxcBgU7jjRpWgUoSdNC7zNYYm9NF6B3UCTsT9tSk=:0",
     likes: 100,
     visitors: 100,
   },
@@ -33,9 +35,11 @@ export const WORK_LIST: WORKITEM[] = [
     tags: ["手写", "笔记"],
     title: "标题2",
     desc: "221321321",
-    coverImg: "../../assets/icon.png",
+    coverImg:
+      "http://39.103.98.182:5244/p/%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/%E6%9D%82%E6%96%87%E4%BB%B6/v2-27c0d6ebd082060670e85dd4179d95f3_r.jpg?sign=7UDOxcBgU7jjRpWgUoSdNC7zNYYm9NF6B3UCTsT9tSk=:0",
     link: "https://juejin.cn/?utm_source=infinitynewtab.com",
-    avatarImg: "../../assets/icon.png",
+    avatarImg:
+      "http://39.103.98.182:5244/p/%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/%E6%9D%82%E6%96%87%E4%BB%B6/v2-27c0d6ebd082060670e85dd4179d95f3_r.jpg?sign=7UDOxcBgU7jjRpWgUoSdNC7zNYYm9NF6B3UCTsT9tSk=:0",
     likes: 100,
     visitors: 100,
   },
@@ -45,9 +49,11 @@ export const WORK_LIST: WORKITEM[] = [
     tags: ["手写", "笔记"],
     title: "标题2",
     desc: "221321321",
-    coverImg: "../../assets/icon.png",
+    coverImg:
+      "http://39.103.98.182:5244/p/%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/%E6%9D%82%E6%96%87%E4%BB%B6/v2-27c0d6ebd082060670e85dd4179d95f3_r.jpg?sign=7UDOxcBgU7jjRpWgUoSdNC7zNYYm9NF6B3UCTsT9tSk=:0",
     link: "https://juejin.cn/?utm_source=infinitynewtab.com",
-    avatarImg: "../../assets/icon.png",
+    avatarImg:
+      "http://39.103.98.182:5244/p/%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/%E6%9D%82%E6%96%87%E4%BB%B6/v2-27c0d6ebd082060670e85dd4179d95f3_r.jpg?sign=7UDOxcBgU7jjRpWgUoSdNC7zNYYm9NF6B3UCTsT9tSk=:0",
     likes: 100,
     visitors: 100,
   },
@@ -57,9 +63,11 @@ export const WORK_LIST: WORKITEM[] = [
     tags: ["手写", "笔记"],
     title: "标题2",
     desc: "221321321",
-    coverImg: "../../assets/icon.png",
+    coverImg:
+      "http://39.103.98.182:5244/p/%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/%E6%9D%82%E6%96%87%E4%BB%B6/v2-27c0d6ebd082060670e85dd4179d95f3_r.jpg?sign=7UDOxcBgU7jjRpWgUoSdNC7zNYYm9NF6B3UCTsT9tSk=:0",
     link: "https://juejin.cn/?utm_source=infinitynewtab.com",
-    avatarImg: "../../assets/icon.png",
+    avatarImg:
+      "http://39.103.98.182:5244/p/%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/%E6%9D%82%E6%96%87%E4%BB%B6/v2-27c0d6ebd082060670e85dd4179d95f3_r.jpg?sign=7UDOxcBgU7jjRpWgUoSdNC7zNYYm9NF6B3UCTsT9tSk=:0",
     likes: 100,
     visitors: 100,
   },
@@ -69,9 +77,11 @@ export const WORK_LIST: WORKITEM[] = [
     tags: ["手写", "笔记"],
     title: "标题2",
     desc: "221321321",
-    coverImg: "../../assets/icon.png",
+    coverImg:
+      "http://39.103.98.182:5244/p/%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/%E6%9D%82%E6%96%87%E4%BB%B6/v2-27c0d6ebd082060670e85dd4179d95f3_r.jpg?sign=7UDOxcBgU7jjRpWgUoSdNC7zNYYm9NF6B3UCTsT9tSk=:0",
     link: "https://juejin.cn/?utm_source=infinitynewtab.com",
-    avatarImg: "../../assets/icon.png",
+    avatarImg:
+      "http://39.103.98.182:5244/p/%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/%E6%9D%82%E6%96%87%E4%BB%B6/v2-27c0d6ebd082060670e85dd4179d95f3_r.jpg?sign=7UDOxcBgU7jjRpWgUoSdNC7zNYYm9NF6B3UCTsT9tSk=:0",
     likes: 100,
     visitors: 100,
   },
@@ -81,9 +91,11 @@ export const WORK_LIST: WORKITEM[] = [
     tags: ["手写", "笔记"],
     title: "标题2",
     desc: "221321321",
-    coverImg: "../../assets/icon.png",
+    coverImg:
+      "http://39.103.98.182:5244/p/%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/%E6%9D%82%E6%96%87%E4%BB%B6/v2-27c0d6ebd082060670e85dd4179d95f3_r.jpg?sign=7UDOxcBgU7jjRpWgUoSdNC7zNYYm9NF6B3UCTsT9tSk=:0",
     link: "https://juejin.cn/?utm_source=infinitynewtab.com",
-    avatarImg: "../../assets/icon.png",
+    avatarImg:
+      "http://39.103.98.182:5244/p/%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/%E6%9D%82%E6%96%87%E4%BB%B6/v2-27c0d6ebd082060670e85dd4179d95f3_r.jpg?sign=7UDOxcBgU7jjRpWgUoSdNC7zNYYm9NF6B3UCTsT9tSk=:0",
     likes: 100,
     visitors: 100,
   },
@@ -93,9 +105,11 @@ export const WORK_LIST: WORKITEM[] = [
     tags: ["手写", "笔记"],
     title: "标题2",
     desc: "221321321",
-    coverImg: "../../assets/icon.png",
+    coverImg:
+      "http://39.103.98.182:5244/p/%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/%E6%9D%82%E6%96%87%E4%BB%B6/v2-27c0d6ebd082060670e85dd4179d95f3_r.jpg?sign=7UDOxcBgU7jjRpWgUoSdNC7zNYYm9NF6B3UCTsT9tSk=:0",
     link: "https://juejin.cn/?utm_source=infinitynewtab.com",
-    avatarImg: "../../assets/icon.png",
+    avatarImg:
+      "http://39.103.98.182:5244/p/%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/%E6%9D%82%E6%96%87%E4%BB%B6/v2-27c0d6ebd082060670e85dd4179d95f3_r.jpg?sign=7UDOxcBgU7jjRpWgUoSdNC7zNYYm9NF6B3UCTsT9tSk=:0",
     likes: 100,
     visitors: 100,
   },
@@ -105,9 +119,11 @@ export const WORK_LIST: WORKITEM[] = [
     tags: ["手写", "笔记"],
     title: "标题2",
     desc: "221321321",
-    coverImg: "../../assets/icon.png",
+    coverImg:
+      "http://39.103.98.182:5244/p/%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/%E6%9D%82%E6%96%87%E4%BB%B6/v2-27c0d6ebd082060670e85dd4179d95f3_r.jpg?sign=7UDOxcBgU7jjRpWgUoSdNC7zNYYm9NF6B3UCTsT9tSk=:0",
     link: "https://juejin.cn/?utm_source=infinitynewtab.com",
-    avatarImg: "../../assets/icon.png",
+    avatarImg:
+      "http://39.103.98.182:5244/p/%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/%E6%9D%82%E6%96%87%E4%BB%B6/v2-27c0d6ebd082060670e85dd4179d95f3_r.jpg?sign=7UDOxcBgU7jjRpWgUoSdNC7zNYYm9NF6B3UCTsT9tSk=:0",
     likes: 100,
     visitors: 100,
   },
@@ -117,9 +133,11 @@ export const WORK_LIST: WORKITEM[] = [
     tags: ["手写", "笔记"],
     title: "标题2",
     desc: "221321321",
-    coverImg: "../../assets/icon.png",
+    coverImg:
+      "http://39.103.98.182:5244/p/%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/%E6%9D%82%E6%96%87%E4%BB%B6/v2-27c0d6ebd082060670e85dd4179d95f3_r.jpg?sign=7UDOxcBgU7jjRpWgUoSdNC7zNYYm9NF6B3UCTsT9tSk=:0",
     link: "https://juejin.cn/?utm_source=infinitynewtab.com",
-    avatarImg: "../../assets/icon.png",
+    avatarImg:
+      "http://39.103.98.182:5244/p/%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/%E6%9D%82%E6%96%87%E4%BB%B6/v2-27c0d6ebd082060670e85dd4179d95f3_r.jpg?sign=7UDOxcBgU7jjRpWgUoSdNC7zNYYm9NF6B3UCTsT9tSk=:0",
     likes: 100,
     visitors: 100,
   },
@@ -129,9 +147,11 @@ export const WORK_LIST: WORKITEM[] = [
     tags: ["手写", "笔记"],
     title: "标题2",
     desc: "221321321",
-    coverImg: "../../assets/icon.png",
+    coverImg:
+      "http://39.103.98.182:5244/p/%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/%E6%9D%82%E6%96%87%E4%BB%B6/v2-27c0d6ebd082060670e85dd4179d95f3_r.jpg?sign=7UDOxcBgU7jjRpWgUoSdNC7zNYYm9NF6B3UCTsT9tSk=:0",
     link: "https://juejin.cn/?utm_source=infinitynewtab.com",
-    avatarImg: "../../assets/icon.png",
+    avatarImg:
+      "http://39.103.98.182:5244/p/%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/%E6%9D%82%E6%96%87%E4%BB%B6/v2-27c0d6ebd082060670e85dd4179d95f3_r.jpg?sign=7UDOxcBgU7jjRpWgUoSdNC7zNYYm9NF6B3UCTsT9tSk=:0",
     likes: 100,
     visitors: 100,
   },
@@ -141,9 +161,11 @@ export const WORK_LIST: WORKITEM[] = [
     tags: ["手写", "笔记"],
     title: "标题2",
     desc: "221321321",
-    coverImg: "../../assets/icon.png",
+    coverImg:
+      "http://39.103.98.182:5244/p/%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/%E6%9D%82%E6%96%87%E4%BB%B6/v2-27c0d6ebd082060670e85dd4179d95f3_r.jpg?sign=7UDOxcBgU7jjRpWgUoSdNC7zNYYm9NF6B3UCTsT9tSk=:0",
     link: "https://juejin.cn/?utm_source=infinitynewtab.com",
-    avatarImg: "../../assets/icon.png",
+    avatarImg:
+      "http://39.103.98.182:5244/p/%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/%E6%9D%82%E6%96%87%E4%BB%B6/v2-27c0d6ebd082060670e85dd4179d95f3_r.jpg?sign=7UDOxcBgU7jjRpWgUoSdNC7zNYYm9NF6B3UCTsT9tSk=:0",
     likes: 100,
     visitors: 100,
   },
@@ -153,9 +175,11 @@ export const WORK_LIST: WORKITEM[] = [
     tags: ["手写", "笔记"],
     title: "标题2",
     desc: "221321321",
-    coverImg: "../../assets/icon.png",
+    coverImg:
+      "http://39.103.98.182:5244/p/%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/%E6%9D%82%E6%96%87%E4%BB%B6/v2-27c0d6ebd082060670e85dd4179d95f3_r.jpg?sign=7UDOxcBgU7jjRpWgUoSdNC7zNYYm9NF6B3UCTsT9tSk=:0",
     link: "https://juejin.cn/?utm_source=infinitynewtab.com",
-    avatarImg: "../../assets/icon.png",
+    avatarImg:
+      "http://39.103.98.182:5244/p/%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/%E6%9D%82%E6%96%87%E4%BB%B6/v2-27c0d6ebd082060670e85dd4179d95f3_r.jpg?sign=7UDOxcBgU7jjRpWgUoSdNC7zNYYm9NF6B3UCTsT9tSk=:0",
     likes: 100,
     visitors: 100,
   },
@@ -165,9 +189,11 @@ export const WORK_LIST: WORKITEM[] = [
     tags: ["手写", "笔记"],
     title: "标题2",
     desc: "221321321",
-    coverImg: "../../assets/icon.png",
+    coverImg:
+      "http://39.103.98.182:5244/p/%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/%E6%9D%82%E6%96%87%E4%BB%B6/v2-27c0d6ebd082060670e85dd4179d95f3_r.jpg?sign=7UDOxcBgU7jjRpWgUoSdNC7zNYYm9NF6B3UCTsT9tSk=:0",
     link: "https://juejin.cn/?utm_source=infinitynewtab.com",
-    avatarImg: "../../assets/icon.png",
+    avatarImg:
+      "http://39.103.98.182:5244/p/%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/%E6%9D%82%E6%96%87%E4%BB%B6/v2-27c0d6ebd082060670e85dd4179d95f3_r.jpg?sign=7UDOxcBgU7jjRpWgUoSdNC7zNYYm9NF6B3UCTsT9tSk=:0",
     likes: 100,
     visitors: 100,
   },
@@ -177,9 +203,11 @@ export const WORK_LIST: WORKITEM[] = [
     tags: ["手写", "笔记"],
     title: "标题2",
     desc: "221321321",
-    coverImg: "../../assets/icon.png",
+    coverImg:
+      "http://39.103.98.182:5244/p/%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/%E6%9D%82%E6%96%87%E4%BB%B6/v2-27c0d6ebd082060670e85dd4179d95f3_r.jpg?sign=7UDOxcBgU7jjRpWgUoSdNC7zNYYm9NF6B3UCTsT9tSk=:0",
     link: "https://juejin.cn/?utm_source=infinitynewtab.com",
-    avatarImg: "../../assets/icon.png",
+    avatarImg:
+      "http://39.103.98.182:5244/p/%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/%E6%9D%82%E6%96%87%E4%BB%B6/v2-27c0d6ebd082060670e85dd4179d95f3_r.jpg?sign=7UDOxcBgU7jjRpWgUoSdNC7zNYYm9NF6B3UCTsT9tSk=:0",
     likes: 100,
     visitors: 100,
   },
@@ -189,9 +217,11 @@ export const WORK_LIST: WORKITEM[] = [
     tags: ["手写", "笔记"],
     title: "标题2",
     desc: "221321321",
-    coverImg: "../../assets/icon.png",
+    coverImg:
+      "http://39.103.98.182:5244/p/%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/%E6%9D%82%E6%96%87%E4%BB%B6/v2-27c0d6ebd082060670e85dd4179d95f3_r.jpg?sign=7UDOxcBgU7jjRpWgUoSdNC7zNYYm9NF6B3UCTsT9tSk=:0",
     link: "https://juejin.cn/?utm_source=infinitynewtab.com",
-    avatarImg: "../../assets/icon.png",
+    avatarImg:
+      "http://39.103.98.182:5244/p/%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/%E6%9D%82%E6%96%87%E4%BB%B6/v2-27c0d6ebd082060670e85dd4179d95f3_r.jpg?sign=7UDOxcBgU7jjRpWgUoSdNC7zNYYm9NF6B3UCTsT9tSk=:0",
     likes: 100,
     visitors: 100,
   },
@@ -201,9 +231,11 @@ export const WORK_LIST: WORKITEM[] = [
     tags: ["手写", "笔记"],
     title: "标题2",
     desc: "221321321",
-    coverImg: "../../assets/icon.png",
+    coverImg:
+      "http://39.103.98.182:5244/p/%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/%E6%9D%82%E6%96%87%E4%BB%B6/v2-27c0d6ebd082060670e85dd4179d95f3_r.jpg?sign=7UDOxcBgU7jjRpWgUoSdNC7zNYYm9NF6B3UCTsT9tSk=:0",
     link: "https://juejin.cn/?utm_source=infinitynewtab.com",
-    avatarImg: "../../assets/icon.png",
+    avatarImg:
+      "http://39.103.98.182:5244/p/%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/%E6%9D%82%E6%96%87%E4%BB%B6/v2-27c0d6ebd082060670e85dd4179d95f3_r.jpg?sign=7UDOxcBgU7jjRpWgUoSdNC7zNYYm9NF6B3UCTsT9tSk=:0",
     likes: 100,
     visitors: 100,
   },
@@ -213,9 +245,11 @@ export const WORK_LIST: WORKITEM[] = [
     tags: ["手写", "笔记"],
     title: "标题2",
     desc: "221321321",
-    coverImg: "../../assets/icon.png",
+    coverImg:
+      "http://39.103.98.182:5244/p/%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/%E6%9D%82%E6%96%87%E4%BB%B6/v2-27c0d6ebd082060670e85dd4179d95f3_r.jpg?sign=7UDOxcBgU7jjRpWgUoSdNC7zNYYm9NF6B3UCTsT9tSk=:0",
     link: "https://juejin.cn/?utm_source=infinitynewtab.com",
-    avatarImg: "../../assets/icon.png",
+    avatarImg:
+      "http://39.103.98.182:5244/p/%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/%E6%9D%82%E6%96%87%E4%BB%B6/v2-27c0d6ebd082060670e85dd4179d95f3_r.jpg?sign=7UDOxcBgU7jjRpWgUoSdNC7zNYYm9NF6B3UCTsT9tSk=:0",
     likes: 100,
     visitors: 100,
   },
@@ -225,9 +259,11 @@ export const WORK_LIST: WORKITEM[] = [
     tags: ["手写", "笔记"],
     title: "标题2",
     desc: "221321321",
-    coverImg: "../../assets/icon.png",
+    coverImg:
+      "http://39.103.98.182:5244/p/%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/%E6%9D%82%E6%96%87%E4%BB%B6/v2-27c0d6ebd082060670e85dd4179d95f3_r.jpg?sign=7UDOxcBgU7jjRpWgUoSdNC7zNYYm9NF6B3UCTsT9tSk=:0",
     link: "https://juejin.cn/?utm_source=infinitynewtab.com",
-    avatarImg: "../../assets/icon.png",
+    avatarImg:
+      "http://39.103.98.182:5244/p/%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/%E6%9D%82%E6%96%87%E4%BB%B6/v2-27c0d6ebd082060670e85dd4179d95f3_r.jpg?sign=7UDOxcBgU7jjRpWgUoSdNC7zNYYm9NF6B3UCTsT9tSk=:0",
     likes: 100,
     visitors: 100,
   },
@@ -237,9 +273,11 @@ export const WORK_LIST: WORKITEM[] = [
     tags: ["手写", "笔记"],
     title: "标题2",
     desc: "221321321",
-    coverImg: "../../assets/icon.png",
+    coverImg:
+      "http://39.103.98.182:5244/p/%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/%E6%9D%82%E6%96%87%E4%BB%B6/v2-27c0d6ebd082060670e85dd4179d95f3_r.jpg?sign=7UDOxcBgU7jjRpWgUoSdNC7zNYYm9NF6B3UCTsT9tSk=:0",
     link: "https://juejin.cn/?utm_source=infinitynewtab.com",
-    avatarImg: "../../assets/icon.png",
+    avatarImg:
+      "http://39.103.98.182:5244/p/%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/%E6%9D%82%E6%96%87%E4%BB%B6/v2-27c0d6ebd082060670e85dd4179d95f3_r.jpg?sign=7UDOxcBgU7jjRpWgUoSdNC7zNYYm9NF6B3UCTsT9tSk=:0",
     likes: 100,
     visitors: 100,
   },
@@ -249,9 +287,11 @@ export const WORK_LIST: WORKITEM[] = [
     tags: ["手写", "笔记"],
     title: "标题2",
     desc: "221321321",
-    coverImg: "../../assets/icon.png",
+    coverImg:
+      "http://39.103.98.182:5244/p/%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/%E6%9D%82%E6%96%87%E4%BB%B6/v2-27c0d6ebd082060670e85dd4179d95f3_r.jpg?sign=7UDOxcBgU7jjRpWgUoSdNC7zNYYm9NF6B3UCTsT9tSk=:0",
     link: "https://juejin.cn/?utm_source=infinitynewtab.com",
-    avatarImg: "../../assets/icon.png",
+    avatarImg:
+      "http://39.103.98.182:5244/p/%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/%E6%9D%82%E6%96%87%E4%BB%B6/v2-27c0d6ebd082060670e85dd4179d95f3_r.jpg?sign=7UDOxcBgU7jjRpWgUoSdNC7zNYYm9NF6B3UCTsT9tSk=:0",
     likes: 100,
     visitors: 100,
   },
@@ -261,9 +301,11 @@ export const WORK_LIST: WORKITEM[] = [
     tags: ["手写", "笔记"],
     title: "标题2",
     desc: "221321321",
-    coverImg: "../../assets/icon.png",
+    coverImg:
+      "http://39.103.98.182:5244/p/%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/%E6%9D%82%E6%96%87%E4%BB%B6/v2-27c0d6ebd082060670e85dd4179d95f3_r.jpg?sign=7UDOxcBgU7jjRpWgUoSdNC7zNYYm9NF6B3UCTsT9tSk=:0",
     link: "https://juejin.cn/?utm_source=infinitynewtab.com",
-    avatarImg: "../../assets/icon.png",
+    avatarImg:
+      "http://39.103.98.182:5244/p/%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/%E6%9D%82%E6%96%87%E4%BB%B6/v2-27c0d6ebd082060670e85dd4179d95f3_r.jpg?sign=7UDOxcBgU7jjRpWgUoSdNC7zNYYm9NF6B3UCTsT9tSk=:0",
     likes: 100,
     visitors: 100,
   },
@@ -273,9 +315,11 @@ export const WORK_LIST: WORKITEM[] = [
     tags: ["手写", "笔记"],
     title: "标题2",
     desc: "221321321",
-    coverImg: "../../assets/icon.png",
+    coverImg:
+      "http://39.103.98.182:5244/p/%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/%E6%9D%82%E6%96%87%E4%BB%B6/v2-27c0d6ebd082060670e85dd4179d95f3_r.jpg?sign=7UDOxcBgU7jjRpWgUoSdNC7zNYYm9NF6B3UCTsT9tSk=:0",
     link: "https://juejin.cn/?utm_source=infinitynewtab.com",
-    avatarImg: "../../assets/icon.png",
+    avatarImg:
+      "http://39.103.98.182:5244/p/%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/%E6%9D%82%E6%96%87%E4%BB%B6/v2-27c0d6ebd082060670e85dd4179d95f3_r.jpg?sign=7UDOxcBgU7jjRpWgUoSdNC7zNYYm9NF6B3UCTsT9tSk=:0",
     likes: 100,
     visitors: 100,
   },
@@ -285,9 +329,11 @@ export const WORK_LIST: WORKITEM[] = [
     tags: ["手写", "笔记"],
     title: "标题2",
     desc: "221321321",
-    coverImg: "../../assets/icon.png",
+    coverImg:
+      "http://39.103.98.182:5244/p/%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/%E6%9D%82%E6%96%87%E4%BB%B6/v2-27c0d6ebd082060670e85dd4179d95f3_r.jpg?sign=7UDOxcBgU7jjRpWgUoSdNC7zNYYm9NF6B3UCTsT9tSk=:0",
     link: "https://juejin.cn/?utm_source=infinitynewtab.com",
-    avatarImg: "../../assets/icon.png",
+    avatarImg:
+      "http://39.103.98.182:5244/p/%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/%E6%9D%82%E6%96%87%E4%BB%B6/v2-27c0d6ebd082060670e85dd4179d95f3_r.jpg?sign=7UDOxcBgU7jjRpWgUoSdNC7zNYYm9NF6B3UCTsT9tSk=:0",
     likes: 100,
     visitors: 100,
   },
@@ -297,9 +343,11 @@ export const WORK_LIST: WORKITEM[] = [
     tags: ["手写", "笔记"],
     title: "标题2",
     desc: "221321321",
-    coverImg: "../../assets/icon.png",
+    coverImg:
+      "http://39.103.98.182:5244/p/%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/%E6%9D%82%E6%96%87%E4%BB%B6/v2-27c0d6ebd082060670e85dd4179d95f3_r.jpg?sign=7UDOxcBgU7jjRpWgUoSdNC7zNYYm9NF6B3UCTsT9tSk=:0",
     link: "https://juejin.cn/?utm_source=infinitynewtab.com",
-    avatarImg: "../../assets/icon.png",
+    avatarImg:
+      "http://39.103.98.182:5244/p/%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/%E6%9D%82%E6%96%87%E4%BB%B6/v2-27c0d6ebd082060670e85dd4179d95f3_r.jpg?sign=7UDOxcBgU7jjRpWgUoSdNC7zNYYm9NF6B3UCTsT9tSk=:0",
     likes: 100,
     visitors: 100,
   },
@@ -309,9 +357,11 @@ export const WORK_LIST: WORKITEM[] = [
     tags: ["手写", "笔记"],
     title: "标题2",
     desc: "221321321",
-    coverImg: "../../assets/icon.png",
+    coverImg:
+      "http://39.103.98.182:5244/p/%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/%E6%9D%82%E6%96%87%E4%BB%B6/v2-27c0d6ebd082060670e85dd4179d95f3_r.jpg?sign=7UDOxcBgU7jjRpWgUoSdNC7zNYYm9NF6B3UCTsT9tSk=:0",
     link: "https://juejin.cn/?utm_source=infinitynewtab.com",
-    avatarImg: "../../assets/icon.png",
+    avatarImg:
+      "http://39.103.98.182:5244/p/%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/%E6%9D%82%E6%96%87%E4%BB%B6/v2-27c0d6ebd082060670e85dd4179d95f3_r.jpg?sign=7UDOxcBgU7jjRpWgUoSdNC7zNYYm9NF6B3UCTsT9tSk=:0",
     likes: 100,
     visitors: 100,
   },
@@ -321,9 +371,11 @@ export const WORK_LIST: WORKITEM[] = [
     tags: ["手写", "笔记"],
     title: "标题2",
     desc: "221321321",
-    coverImg: "../../assets/icon.png",
+    coverImg:
+      "http://39.103.98.182:5244/p/%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/%E6%9D%82%E6%96%87%E4%BB%B6/v2-27c0d6ebd082060670e85dd4179d95f3_r.jpg?sign=7UDOxcBgU7jjRpWgUoSdNC7zNYYm9NF6B3UCTsT9tSk=:0",
     link: "https://juejin.cn/?utm_source=infinitynewtab.com",
-    avatarImg: "../../assets/icon.png",
+    avatarImg:
+      "http://39.103.98.182:5244/p/%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/%E6%9D%82%E6%96%87%E4%BB%B6/v2-27c0d6ebd082060670e85dd4179d95f3_r.jpg?sign=7UDOxcBgU7jjRpWgUoSdNC7zNYYm9NF6B3UCTsT9tSk=:0",
     likes: 100,
     visitors: 100,
   },
@@ -382,6 +434,7 @@ export const WEBINFODETAIL: WEBINFO = {
 interface Project {
   title: string;
   time: string;
+  skills: string[];
   function: string[];
 }
 interface experience {
@@ -433,11 +486,24 @@ export const ABOUTINFO: ABOUT = {
         {
           title: "项目1",
           time: "2022年7月 - 至今",
+          skills: [
+            "Html",
+            "Js",
+            "Css",
+            "Ts",
+            "Webpack",
+            "React",
+            "Canvas",
+            "Svg",
+            "Skia",
+            "CanvasKit",
+          ],
           function: ["负责xxxxx", "负责xxxxx1", "负责xxxxx2"],
         },
         {
           title: "项目2",
           time: "2022年7月 - 至今",
+          skills: ["Webpack", "React", "Canvas", "Svg", "Skia", "CanvasKit"],
           function: ["负责xxxxx", "负责xxxxx1", "负责xxxxx2"],
         },
       ],
@@ -449,7 +515,43 @@ export const ABOUTINFO: ABOUT = {
       title: "23213",
       desc: "2321321",
       time: "2321321",
-      url: "../assets/icon.png",
+      url: "http://39.103.98.182:5244/p/%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/%E6%9D%82%E6%96%87%E4%BB%B6/v2-27c0d6ebd082060670e85dd4179d95f3_r.jpg?sign=7UDOxcBgU7jjRpWgUoSdNC7zNYYm9NF6B3UCTsT9tSk=:0",
+    },
+    {
+      title: "1",
+      desc: "2321321",
+      time: "2321321",
+      url: "http://39.103.98.182:5244/p/%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/%E6%9D%82%E6%96%87%E4%BB%B6/v2-27c0d6ebd082060670e85dd4179d95f3_r.jpg?sign=7UDOxcBgU7jjRpWgUoSdNC7zNYYm9NF6B3UCTsT9tSk=:0",
+    },
+    {
+      title: "2",
+      desc: "2321321",
+      time: "2321321",
+      url: "http://39.103.98.182:5244/p/%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/%E6%9D%82%E6%96%87%E4%BB%B6/v2-27c0d6ebd082060670e85dd4179d95f3_r.jpg?sign=7UDOxcBgU7jjRpWgUoSdNC7zNYYm9NF6B3UCTsT9tSk=:0",
+    },
+    {
+      title: "3",
+      desc: "2321321",
+      time: "2321321",
+      url: "http://39.103.98.182:5244/p/%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/%E6%9D%82%E6%96%87%E4%BB%B6/v2-27c0d6ebd082060670e85dd4179d95f3_r.jpg?sign=7UDOxcBgU7jjRpWgUoSdNC7zNYYm9NF6B3UCTsT9tSk=:0",
+    },
+    {
+      title: "1321",
+      desc: "2321321",
+      time: "2321321",
+      url: "http://39.103.98.182:5244/p/%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/%E6%9D%82%E6%96%87%E4%BB%B6/v2-27c0d6ebd082060670e85dd4179d95f3_r.jpg?sign=7UDOxcBgU7jjRpWgUoSdNC7zNYYm9NF6B3UCTsT9tSk=:0",
+    },
+    {
+      title: "3213213213",
+      desc: "2321321",
+      time: "2321321",
+      url: "http://39.103.98.182:5244/p/%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/%E6%9D%82%E6%96%87%E4%BB%B6/v2-27c0d6ebd082060670e85dd4179d95f3_r.jpg?sign=7UDOxcBgU7jjRpWgUoSdNC7zNYYm9NF6B3UCTsT9tSk=:0",
+    },
+    {
+      title: "a'dsa",
+      desc: "2321321",
+      time: "2321321",
+      url: "http://39.103.98.182:5244/p/%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/%E6%9D%82%E6%96%87%E4%BB%B6/v2-27c0d6ebd082060670e85dd4179d95f3_r.jpg?sign=7UDOxcBgU7jjRpWgUoSdNC7zNYYm9NF6B3UCTsT9tSk=:0",
     },
   ],
 };

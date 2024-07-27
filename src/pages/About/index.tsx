@@ -7,7 +7,8 @@ import { Tag } from "./components/Tag";
 const About = () => {
   const [aboutInfo] = useState<ABOUT>(ABOUTINFO);
   if (!aboutInfo) return null;
-  const { author, introduce, skills, experience } = aboutInfo;
+  const { author, introduce, skills, experience, lifeImgList } = aboutInfo;
+  console.log("✅ ~ lifeImgList:", lifeImgList);
   return (
     <>
       <div className={style.container}>
@@ -34,7 +35,7 @@ const About = () => {
             {skills.map((item) => {
               return (
                 <div className={style.tagItem}>
-                  <Tag tagTitle={item} />
+                  <Tag size="large" tagTitle={item} />
                 </div>
               );
             })}
@@ -51,7 +52,31 @@ const About = () => {
                     <div className={style.time}>{item.time}</div>
                   </div>
                   <div className={style.projectsList}>
-                    {item.projects[0].function}
+                    {item.projects.map((item) => {
+                      return (
+                        <div className={style.projectItem}>
+                          <div className={style.projectTime}>
+                            <div className={style.title}> {item.title}</div>
+                            <div className={style.time}> ：{item.time}</div>
+                          </div>
+
+                          <div className={style.projectItemSkills}>
+                            {item.skills.map((item) => {
+                              return (
+                                <div className={style.tagItem}>
+                                  <Tag size="mini" tagTitle={item} />
+                                </div>
+                              );
+                            })}
+                          </div>
+                          <ul>
+                            {item.function.map((item) => {
+                              return <li>{item}</li>;
+                            })}
+                          </ul>
+                        </div>
+                      );
+                    })}
                   </div>
                 </div>
               );
@@ -60,9 +85,22 @@ const About = () => {
         </div>
         <div className={style.todo}>
           <h3>成为什么样的人</h3>
+          <div className={style.future}>
+            热爱生活和分享技术的前端工程师。我希望能够通过我的博客，与大家分享我的生活态度、经历和技术的学习，希望带给大家一些启发和帮助！你也可以在我的
+            掘金 和 Github 里面了解更多。
+          </div>
         </div>
         <div className={style.life}>
           <h3>日常生活</h3>
+          <div className={style.imgContainer}>
+            {lifeImgList.map((item) => {
+              return (
+                <>
+                  <img src={item.url} alt="" />
+                </>
+              );
+            })}
+          </div>
         </div>
       </div>
     </>

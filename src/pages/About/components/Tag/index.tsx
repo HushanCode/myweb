@@ -1,5 +1,6 @@
 interface TagParams {
   tagTitle: string;
+  size: "large" | "medium" | "mini";
 }
 
 const generateTagColors = (baseLightness: number) => {
@@ -30,15 +31,17 @@ const generateTagColors = (baseLightness: number) => {
 };
 
 export const Tag = (props: TagParams) => {
-  const { tagTitle } = props;
+  const { tagTitle, size = "large" } = props;
   const { borderColor, backgroundColor, fontColor } = generateTagColors(90);
 
   const tagStyle = {
     border: `1px solid ${borderColor}`,
     backgroundColor: backgroundColor,
     color: fontColor,
-    padding: "2px 5px",
-    borderRadius: "5px",
+    padding:
+      size === "large" ? "3px 6px" : size === "medium" ? "2px 4px" : "1px 2px",
+    borderRadius: size === "large" ? "5px" : size === "medium" ? "3px" : "2px",
+    fontSize: size === "large" ? "14px" : size === "medium" ? "12px" : "10px",
     display: "inline-block",
   };
   return <span style={tagStyle}>{tagTitle}</span>;

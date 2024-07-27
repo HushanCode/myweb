@@ -35,24 +35,28 @@ const Works = () => {
           ></LeftTabMenu>
         </div>
         <div className={style.right}>
-          <ContentTitle
-            type={activeTab}
-            workList={workList}
-            setFilterWorkList={setFilterWorkList}
-          ></ContentTitle>
-          <div className={style.workContainer}>
-            {filterWorkList?.map((item) => {
-              return (
-                <>
-                  <WorkCard
-                    link={item.link}
-                    desc={item.desc}
-                    miniImg={item.avatarImg}
-                    coverImg={item.coverImg}
-                  />
-                </>
-              );
-            })}
+          <div className={style.contentTitleContainer}>
+            <ContentTitle
+              type={activeTab}
+              workList={workList}
+              setFilterWorkList={setFilterWorkList}
+            ></ContentTitle>
+          </div>
+          <div className={style.outWorkContainer}>
+            <div className={style.workContainer}>
+              {filterWorkList?.map((item) => {
+                return (
+                  <>
+                    <WorkCard
+                      link={item.link}
+                      desc={item.desc}
+                      miniImg={item.avatarImg}
+                      coverImg={item.coverImg}
+                    />
+                  </>
+                );
+              })}
+            </div>
           </div>
         </div>
       </div>

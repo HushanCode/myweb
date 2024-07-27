@@ -44,7 +44,7 @@ const ContentTitle = (props: ContentTitlePropType) => {
   };
 
   return (
-    <div className={style.container}>
+    <div className={style.titleContainer}>
       <div className={style.title}>全部{tab ? tab.title : null}</div>
       <div className={style.classify}>
         {CLASSIFYS?.map((item) => {

@@ -1,5 +1,5 @@
 import style from "./style/index.module.less";
-import avatar from "../../components/HomeContent/img/3D.png";
+import avatar from "../../assets/icon.png";
 import bg from "../../components/HomeContent/img/bg.avif";
 import { useState } from "react";
 import { ABOUT, ABOUTINFO } from "../../constants";

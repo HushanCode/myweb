@@ -1,39 +1,43 @@
 .container {
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+  overflow: hidden;
+  .left {
+    box-sizing: border-box;
+    width: 15vw;
+    // height: 100vh;
+    padding: 10px;
+    border-right: 1px solid rgba(214, 213, 213, 0.5);
+    background-color: rgb(255, 255, 255);
+  }
+
+  .right {
     display: flex;
-    justify-content: space-between;
-
-    .left {
-        box-sizing: border-box;
-        width: 15vw;
-        height: 100vh;
-        padding: 10px;
-        border-right: 1px solid rgba(214, 213, 213, 0.5);
-        background-color: rgb(255, 255, 255);
+    flex-direction: column;
+    flex: 1;
+    background-color: rgb(255, 255, 255);
+    padding: 64px 64px 40px;
+    overflow: hidden;
+    .contentTitleContainer {
+      display: block;
     }
-
-    .right {
-        flex-direction: column;
-        flex: 1;
-        background-color: rgb(255, 255, 255);
-        padding: 64px 64px 40px;
+    .outWorkContainer {
+      height: calc(100vh - 89px);
+      overflow: scroll;
+      padding: 10px 10px 0px 10px;
+      border-top: 0.5px solid rgb(232, 232, 232);
+      .workContainer {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-gap: 20px;
+        justify-items: center;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        overflow: auto;
+      }
     }
-
-    .workContainer {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        margin-top: 10px;
-        gap: 10px;
-        flex-basis: 20%;
-    }
-
-    /* 添加一个空占位项目，使最后一行左对齐分布 */
-    .workContainer:after {
-        content: "";
-        flex-basis: calc(25% - 20px);
-        /* 设置空占位项目的宽度，与卡片一致 */
-        margin-bottom: -20px;
-        /* 抵消额外的间距 */
-    }
+  }
 }

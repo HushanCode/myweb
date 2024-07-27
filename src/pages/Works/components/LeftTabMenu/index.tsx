@@ -20,7 +20,7 @@ const LeftTabMenu = (props: LeftTabMenuProps) => {
     });
     console.log("✅ ~ newWorkList:", newWorkList);
     // 设置作品list
-    setFilterWorkList(WORK_LIST);
+    setFilterWorkList(WORK_LIST.filter((item) => item.type === activeTab));
   };
   return (
     <div className={style.container}>

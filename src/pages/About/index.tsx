@@ -3,10 +3,11 @@ import avatar from "../../assets/icon.png";
 import bg from "../../components/HomeContent/img/bg.avif";
 import { useState } from "react";
 import { ABOUT, ABOUTINFO } from "../../constants";
+import { Tag } from "./components/Tag";
 const About = () => {
   const [aboutInfo] = useState<ABOUT>(ABOUTINFO);
   if (!aboutInfo) return null;
-  const { author, introduce } = aboutInfo;
+  const { author, introduce, skills, experience } = aboutInfo;
   return (
     <>
       <div className={style.container}>
@@ -28,10 +29,34 @@ const About = () => {
           </p>
         </div>
         <div className={style.skill}>
-          <h3>技能</h3>
+          <h3>技能&经验</h3>
+          <div className={style.skillList}>
+            {skills.map((item) => {
+              return (
+                <div className={style.tagItem}>
+                  <Tag tagTitle={item} />
+                </div>
+              );
+            })}
+          </div>
         </div>
-        <div className={style.Experience}>
+        <div className={style.experience}>
           <h3>职业经历</h3>
+          <div className={style.experienceList}>
+            {experience.map((item) => {
+              return (
+                <div className={style.experienceItems}>
+                  <div className={style.titleItem}>
+                    <div className={style.title}>{item.title} </div>
+                    <div className={style.time}>{item.time}</div>
+                  </div>
+                  <div className={style.projectsList}>
+                    {item.projects[0].function}
+                  </div>
+                </div>
+              );
+            })}
+          </div>
         </div>
         <div className={style.todo}>
           <h3>成为什么样的人</h3>

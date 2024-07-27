@@ -1,8 +1,9 @@
+import { SubType } from "../pages/Works/components/ContentTitle/constants";
 import { MenuType } from "../pages/Works/components/LeftTabMenu";
 
 export interface WORKITEM {
   type: MenuType;
-  subType: string;
+  subType: SubType;
   tags: string[];
   title: string;
   desc: string;
@@ -16,7 +17,7 @@ export interface WORKITEM {
 export const WORK_LIST: WORKITEM[] = [
   {
     type: "write",
-    subType: "测试",
+    subType: "algorithm",
     tags: ["手写", "笔记"],
     title: "标题1",
     desc: "221321321",
@@ -28,7 +29,7 @@ export const WORK_LIST: WORKITEM[] = [
   },
   {
     type: "write",
-    subType: "测试",
+    subType: "array",
     tags: ["手写", "笔记"],
     title: "标题2",
     desc: "221321321",
@@ -40,7 +41,7 @@ export const WORK_LIST: WORKITEM[] = [
   },
   {
     type: "write",
-    subType: "测试",
+    subType: "object",
     tags: ["手写", "笔记"],
     title: "标题2",
     desc: "221321321",
@@ -52,7 +53,7 @@ export const WORK_LIST: WORKITEM[] = [
   },
   {
     type: "write",
-    subType: "测试",
+    subType: "string",
     tags: ["手写", "笔记"],
     title: "标题2",
     desc: "221321321",
@@ -64,7 +65,7 @@ export const WORK_LIST: WORKITEM[] = [
   },
   {
     type: "write",
-    subType: "测试",
+    subType: "array",
     tags: ["手写", "笔记"],
     title: "标题2",
     desc: "221321321",
@@ -76,7 +77,7 @@ export const WORK_LIST: WORKITEM[] = [
   },
   {
     type: "write",
-    subType: "测试",
+    subType: "array",
     tags: ["手写", "笔记"],
     title: "标题2",
     desc: "221321321",
@@ -88,7 +89,7 @@ export const WORK_LIST: WORKITEM[] = [
   },
   {
     type: "write",
-    subType: "测试",
+    subType: "array",
     tags: ["手写", "笔记"],
     title: "标题2",
     desc: "221321321",
@@ -100,7 +101,7 @@ export const WORK_LIST: WORKITEM[] = [
   },
   {
     type: "write",
-    subType: "测试",
+    subType: "array",
     tags: ["手写", "笔记"],
     title: "标题2",
     desc: "221321321",
@@ -112,7 +113,7 @@ export const WORK_LIST: WORKITEM[] = [
   },
   {
     type: "write",
-    subType: "测试",
+    subType: "array",
     tags: ["手写", "笔记"],
     title: "标题2",
     desc: "221321321",
@@ -124,7 +125,7 @@ export const WORK_LIST: WORKITEM[] = [
   },
   {
     type: "write",
-    subType: "测试",
+    subType: "array",
     tags: ["手写", "笔记"],
     title: "标题2",
     desc: "221321321",
@@ -136,7 +137,7 @@ export const WORK_LIST: WORKITEM[] = [
   },
   {
     type: "write",
-    subType: "测试",
+    subType: "array",
     tags: ["手写", "笔记"],
     title: "标题2",
     desc: "221321321",
@@ -148,7 +149,7 @@ export const WORK_LIST: WORKITEM[] = [
   },
   {
     type: "write",
-    subType: "测试",
+    subType: "array",
     tags: ["手写", "笔记"],
     title: "标题2",
     desc: "221321321",
@@ -160,7 +161,7 @@ export const WORK_LIST: WORKITEM[] = [
   },
   {
     type: "write",
-    subType: "测试",
+    subType: "array",
     tags: ["手写", "笔记"],
     title: "标题2",
     desc: "221321321",
@@ -172,7 +173,7 @@ export const WORK_LIST: WORKITEM[] = [
   },
   {
     type: "write",
-    subType: "测试",
+    subType: "array",
     tags: ["手写", "笔记"],
     title: "标题2",
     desc: "221321321",
@@ -184,7 +185,7 @@ export const WORK_LIST: WORKITEM[] = [
   },
   {
     type: "write",
-    subType: "测试",
+    subType: "array",
     tags: ["手写", "笔记"],
     title: "标题2",
     desc: "221321321",
@@ -196,7 +197,7 @@ export const WORK_LIST: WORKITEM[] = [
   },
   {
     type: "write",
-    subType: "测试",
+    subType: "array",
     tags: ["手写", "笔记"],
     title: "标题2",
     desc: "221321321",
@@ -208,7 +209,7 @@ export const WORK_LIST: WORKITEM[] = [
   },
   {
     type: "write",
-    subType: "测试",
+    subType: "array",
     tags: ["手写", "笔记"],
     title: "标题2",
     desc: "221321321",
@@ -220,7 +221,19 @@ export const WORK_LIST: WORKITEM[] = [
   },
   {
     type: "write",
-    subType: "测试",
+    subType: "array",
+    tags: ["手写", "笔记"],
+    title: "标题2",
+    desc: "221321321",
+    coverImg: "../../assets/icon.png",
+    link: "https://juejin.cn/?utm_source=infinitynewtab.com",
+    avatarImg: "../../assets/icon.png",
+    likes: 100,
+    visitors: 100,
+  },
+  {
+    type: "component",
+    subType: "latest",
     tags: ["手写", "笔记"],
     title: "标题2",
     desc: "221321321",
@@ -232,7 +245,7 @@ export const WORK_LIST: WORKITEM[] = [
   },
   {
     type: "write",
-    subType: "测试",
+    subType: "array",
     tags: ["手写", "笔记"],
     title: "标题2",
     desc: "221321321",
@@ -243,8 +256,8 @@ export const WORK_LIST: WORKITEM[] = [
     visitors: 100,
   },
   {
-    type: "write",
-    subType: "测试",
+    type: "component",
+    subType: "latest",
     tags: ["手写", "笔记"],
     title: "标题2",
     desc: "221321321",
@@ -255,8 +268,8 @@ export const WORK_LIST: WORKITEM[] = [
     visitors: 100,
   },
   {
-    type: "write",
-    subType: "测试",
+    type: "component",
+    subType: "latest",
     tags: ["手写", "笔记"],
     title: "标题2",
     desc: "221321321",
@@ -267,8 +280,8 @@ export const WORK_LIST: WORKITEM[] = [
     visitors: 100,
   },
   {
-    type: "write",
-    subType: "测试",
+    type: "animation",
+    subType: "latest",
     tags: ["手写", "笔记"],
     title: "标题2",
     desc: "221321321",
@@ -279,8 +292,8 @@ export const WORK_LIST: WORKITEM[] = [
     visitors: 100,
   },
   {
-    type: "write",
-    subType: "测试",
+    type: "animation",
+    subType: "latest",
     tags: ["手写", "笔记"],
     title: "标题2",
     desc: "221321321",
@@ -291,8 +304,8 @@ export const WORK_LIST: WORKITEM[] = [
     visitors: 100,
   },
   {
-    type: "write",
-    subType: "测试",
+    type: "animation",
+    subType: "recommended",
     tags: ["手写", "笔记"],
     title: "标题2",
     desc: "221321321",
@@ -303,20 +316,8 @@ export const WORK_LIST: WORKITEM[] = [
     visitors: 100,
   },
   {
-    type: "write",
-    subType: "测试",
-    tags: ["手写", "笔记"],
-    title: "标题2",
-    desc: "221321321",
-    coverImg: "../../assets/icon.png",
-    link: "https://juejin.cn/?utm_source=infinitynewtab.com",
-    avatarImg: "../../assets/icon.png",
-    likes: 100,
-    visitors: 100,
-  },
-  {
-    type: "write",
-    subType: "测试",
+    type: "animation",
+    subType: "recommended",
     tags: ["手写", "笔记"],
     title: "标题2",
     desc: "221321321",

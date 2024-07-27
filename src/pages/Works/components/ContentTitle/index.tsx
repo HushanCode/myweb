@@ -9,37 +9,37 @@ import { WORKITEM } from "../../../../constants";
 interface ContentTitlePropType {
   // 类型
   type: MenuType;
+  subActiveTab: string;
   workList: WORKITEM[];
+  setSubActiveTab: Function;
   setFilterWorkList: Function;
 }
 const ContentTitle = (props: ContentTitlePropType) => {
-  const { type, workList, setFilterWorkList } = props;
+  const { type, subActiveTab, workList, setFilterWorkList, setSubActiveTab } =
+    props;
   const CLASSIFYS = type === "write" ? API_CLASSIFY : CLASSIFY;
   // 左侧菜单选择
   const tab = LEFT_MENU_TABS.find((tab) => tab.type === type);
-  // 二级分类设置
-  const [subType, setSubType] = useState<string>(CLASSIFYS[0].type);
 
   useEffect(() => {
-    setSubType(CLASSIFYS[0].type);
-  }, [type]);
+    setSubActiveTab(CLASSIFYS[0].type);
+  }, [CLASSIFYS, type, setSubActiveTab]);
 
-  const getWorkList = (subType: string) => {
-    console.log("✅ ~ subType:", subType);
-    if (subType === "all") {
+  const getWorkList = (subActiveTab: string) => {
+    console.log("✅ ~ subType:", subActiveTab);
+    if (subActiveTab === "all") {
       const newWorksList = workList.filter((item) => {
         return item.type === type;
       });
-      console.log("✅ ~ newWorksList:", newWorksList);
-      setSubType(subType);
+      setSubActiveTab("all");
       setFilterWorkList(newWorksList);
       return;
     }
     const newWorksList = workList.filter((item) => {
-      return item.subType === subType && item.type === type;
+      return item.subType === subActiveTab && item.type === type;
     });
     console.log("✅ ~ newWorksList:", newWorksList);
-    setSubType(subType);
+    setSubActiveTab(subActiveTab);
     setFilterWorkList(newWorksList);
   };
 
@@ -52,7 +52,7 @@ const ContentTitle = (props: ContentTitlePropType) => {
             <div
               className={classNames({
                 [style.tabItem]: true,
-                [style.isActive]: subType === item.type,
+                [style.isActive]: subActiveTab === item.type,
               })}
               onClick={() => {
                 getWorkList(item.type);

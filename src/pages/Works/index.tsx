@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import ContentTitle from "./components/ContentTitle";
 import LeftAvatar from "./components/LeftAvatar";
 import LeftTabMenu, { MenuType } from "./components/LeftTabMenu";
@@ -6,14 +6,26 @@ import TopButton from "./components/TopButton";
 import style from "./style/index.module.less";
 import WorkCard from "./components/WorkCard";
 import { WEBINFO, WEBINFODETAIL, WORKITEM, WORK_LIST } from "../../constants";
+import { SubType } from "./components/ContentTitle/constants";
 const Works = () => {
   const [activeTab, setActiveTab] = useState<MenuType>("animation");
+  const [subActiveTab, setSubActiveTab] = useState<SubType>("all");
   const [workList] = useState<WORKITEM[]>(WORK_LIST);
   const [filterWorkList, setFilterWorkList] = useState<WORKITEM[]>([]);
   const [webInfo] = useState<WEBINFO>(WEBINFODETAIL);
 
+  useEffect(() => {
+    setFilterWorkList(
+      subActiveTab === "all"
+        ? WORK_LIST.filter((item) => item.type === activeTab)
+        : WORK_LIST.filter(
+            (item) => item.type === activeTab && item.subType === subActiveTab
+          )
+    );
+  }, [subActiveTab, activeTab]);
+
   if (!filterWorkList || !webInfo) return null;
-  console.log("✅ ~ workList:", workList);
+  console.log("✅ ~ filterWorkList:", filterWorkList);
 
   return (
     <>
@@ -38,6 +50,8 @@ const Works = () => {
           <div className={style.contentTitleContainer}>
             <ContentTitle
               type={activeTab}
+              subActiveTab={subActiveTab}
+              setSubActiveTab={setSubActiveTab}
               workList={workList}
               setFilterWorkList={setFilterWorkList}
             ></ContentTitle>

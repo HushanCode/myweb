@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/ban-types */
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { LEFT_MENU_TABS } from "../LeftTabMenu/constants";
 import { API_CLASSIFY, CLASSIFY } from "./constants";
 import style from "./style/index.module.less";

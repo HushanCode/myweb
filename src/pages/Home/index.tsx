@@ -3,6 +3,7 @@ import Header from "../../components/Header";
 import HomeContent from "../../components/HomeContent";
 import style from "./style/index.module.less";
 import { renderMatter } from "./matterRender";
+import Footer from "../../components/Footer";
 const Home = () => {
   useEffect(() => {
     renderMatter();
@@ -10,8 +11,9 @@ const Home = () => {
   return (
     <>
       <div className={style.container}>
-        <Header></Header>
-        <HomeContent></HomeContent>
+        <Header />
+        <HomeContent />
+        <Footer />
       </div>
     </>
   );

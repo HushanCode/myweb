@@ -9,11 +9,12 @@
     box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.08);
     border: 1px solid rgba(0, 0, 0, 0.08);
     border-radius: 8px;
+    aspect-ratio: 16 / 9;
     img {
       padding: 8px;
       border-radius: 8px;
-      width: calc(100% - 8px);
-      height: calc(187px - 8px);
+      width: calc(100% - 16px);
+      height: calc(100% - 16px);
       object-fit: cover;
     }
   }
@@ -42,33 +43,5 @@
       overflow: hidden;
       text-overflow: ellipsis;
     }
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  .container {
-    flex-basis: calc(25% - 20px);
-    /* 在较小屏幕上显示4个卡片，并考虑间距 */
-  }
-}
-
-@media screen and (max-width: 900px) {
-  .container {
-    flex-basis: calc(33.33% - 20px);
-    /* 在更小屏幕上显示3个卡片，并考虑间距 */
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .container {
-    flex-basis: calc(50% - 20px);
-    /* 在较小屏幕上显示2个卡片，并考虑间距 */
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .container {
-    flex-basis: 100%;
-    /* 在更小屏幕上只显示1个卡片，占据整行宽度 */
   }
 }

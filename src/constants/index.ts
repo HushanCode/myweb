@@ -1,6 +1,5 @@
 import { SubType } from "../pages/Works/components/ContentTitle/constants";
 import { MenuType } from "../pages/Works/components/LeftTabMenu";
-
 export interface WORKITEM {
   type: MenuType;
   subType: SubType;
@@ -349,7 +348,7 @@ export const WEBINFODETAIL: WEBINFO = {
   author: "ObjectX",
   roles: ["前端工程师", "图形编辑器开发", "前端工程化"],
   motto: "何须浅碧深红色，自是花中第一流。",
-  avatarImg: "../assets/icon.png",
+  avatarImg: "https://s21.ax1x.com/2024/06/14/pkdLxmt.png",
   social: [
     {
       title: "Juejin",
